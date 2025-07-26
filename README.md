@@ -4,8 +4,8 @@ Allows configuring custom music (.mp3 or .sgt) in Gothic.ini. Supports multiple 
 ## How to configure
 
 1. Copy your music to `_work\Data\Music`
-2. Run the game at least once, so that it adds default [CUSTOM_MUSIC] settings to Gothic.ini.
-3. Open Gothic.ini and scroll down to [CUSTOM_MUSIC] section.
+2. Run the game at least once, so that it adds default `[CUSTOM_MUSIC]` settings to Gothic.ini.
+3. Open Gothic.ini and scroll down to `[CUSTOM_MUSIC]` section.
 
 For each music zone it adds two entries: `(musicZoneName)=track.mp3` and `(musicZoneName)_random=0`. **You configure only one of the two, never both**. `(musicZoneName)` is for one track only. Use `(musicZoneName)_random` if you want to have more than one track in that music zone (it's randomized on game load). `(musicZoneName)_random` defines how many tracks you have. These track need to have specific file names: `(musicZoneName)_(number)`.
 
@@ -25,7 +25,7 @@ hrs_ngt_std=NW_FOREST.mp3
 
 ## Don't know which track is played where?
 
-Set in Gothic.ini
+Set in Gothic.ini:
 ```
 [BASSMUSIC]
 LoggerLevelUnion=TRACE
@@ -41,7 +41,7 @@ in console window you will see logs when music zone changes:
  TRACE  [zBassMusic::CMusicSys_Bass] PlayThemeByScript: OR_DAY_STD
  TRACE  [zBassMusic::CMusicSys_Bass] PlayThemeByScript: OR_NGT_STD
 ```
-OR_DAY_STD and OR_NGT_STD are the music zones here.
+"OR_DAY_STD" and "OR_NGT_STD" are the music zones here.
 
 In case you have set music zones to use .mp3:
 ```
@@ -50,6 +50,9 @@ In case you have set music zones to use .mp3:
  DEBUG  [zBassMusic::MusicTheme] Transition HRS_NGT_STD to KHO_DAY_STD
  TRACE  [zBassMusic::Event_OnChange] KHO_DAY_STD, NW_CITY.mp3
 ```
-KHO_DAY_STD and HRS_NGT_STD are the music zones here
+"KHO_DAY_STD" and "HRS_NGT_STD" are the music zones here.
+
+Basically, all you have to do is: find music zone you want change (i.e. "KHO_DAY_STD") in Gothic.ini and change its corresponding track.
+Or, in case you want to have more than one track, rename multiple tracks to KHO_DAY_STD_1.mp3, KHO_DAY_STD_2.mp3, ... and set KHO_DAY_STD_random range.
 
 Warning: try to use .sgt where possible and keep .mp3 below 80, or zBassMusic might crash the game.
