@@ -52,7 +52,7 @@ In case you have set music zones to use .mp3:
 ```
 "KHO_DAY_STD" and "HRS_NGT_STD" are the music zones here.
 
-Basically, all you have to do is: find music zone you want change (i.e. "KHO_DAY_STD") in Gothic.ini and change its corresponding track.
+Basically, all you have to do is: find music zone you want change (i.e. "KHO_DAY_STD") in Gothic.ini and change its corresponding track.  
 Or, in case you want to have more than one track, rename multiple tracks to KHO_DAY_STD_1.mp3, KHO_DAY_STD_2.mp3, ... and set KHO_DAY_STD_random range.
 
 Warning: try to use .sgt where possible and keep .mp3 below 80, or zBassMusic might crash the game.
