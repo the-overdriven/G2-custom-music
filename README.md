@@ -4,7 +4,7 @@ Allows configuring custom music (.mp3 or .sgt) in Gothic.ini. Supports multiple 
 ## How to configure
 
 1. Copy your music to `_work\Data\Music`
-2. Run the game at least once, so that it adds default [CUSTOM_MUSIC] to Gothic.ini.
+2. Run the game at least once, so that it adds default [CUSTOM_MUSIC] settings to Gothic.ini.
 3. Open Gothic.ini and scroll down to [CUSTOM_MUSIC] section.
 
 For each music zone it adds two entries: `(musicZoneName)=track.mp3` and `(musicZoneName)_random=0`. **You configure only one of the two, never both**. `(musicZoneName)` is for one track only. Use `(musicZoneName)_random` if you want to have more than one track in that music zone (it's randomized on game load). `(musicZoneName)_random` defines how many tracks you have. These track need to have specific file names: `(musicZoneName)_(number)`.
