@@ -26,7 +26,7 @@ hrs_ngt_std=NW_FOREST.mp3
 ```
 
 ## Compatibility
-Tailored for unmodded game and New Balance mod. Thanks to zPE, it doesn't overwrite the entire MUSIC.DAT and should work with any G2 mod that uses vanilla game zones. If New Balance complains about unsupported zBass .dlls, it means they are not whitelisted and union_abi.dll needs to be edited in [HxD](https://mh-nexus.de/en/hxd/) (search for any white-listed .dll and replace with all zBass .dlls).
+Tailored for unmodded game and New Balance mod. Thanks to [zPE](https://gothic-modding-community.github.io/gmc/zengin/scripts/extenders/zparserextender/), it doesn't overwrite the entire MUSIC.DAT and should work with any G2 mod that uses vanilla game zones. If New Balance complains about unsupported zBass .dlls, it means they are not whitelisted and union_abi.dll needs to be edited in [HxD](https://mh-nexus.de/en/hxd/) (search for any white-listed .dll and replace with all zBass .dlls).
 
 ## Don't know which track is played where?
 
