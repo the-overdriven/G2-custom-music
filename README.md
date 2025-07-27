@@ -58,4 +58,4 @@ Basically, all you have to do is: find music zone you want change (i.e. "KHO_DAY
 Or, in case you want to have more than one track, rename multiple tracks to KHO_DAY_STD_1.mp3, KHO_DAY_STD_2.mp3, ... and set KHO_DAY_STD_random range to the amount of tracks you want to use.
 
 > [!WARNING]  
-> Warning: try to use .sgt where possible and keep .mp3 below 80, or zBassMusic might crash the game.
+> Warning: try to use .sgt where possible and keep .mp3 usage under 80 entries, or zBassMusic might crash the game.
