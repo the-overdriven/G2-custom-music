@@ -4,6 +4,8 @@ META
     MergeMode = TRUE
 };
 
+// Custom Music
+// https://github.com/the-overdriven/G2-custom-music
 // Randomizes tracks within a single music zone.
 
 /* returns a random number from a range defined in [CUSTOM_MUSIC](zone name)_random + 1 */
@@ -70,6 +72,10 @@ func void randomizeAllZones() {
     randomizeMusic("lob_day_std");
     randomizeMusic("may_day_std");
     randomizeMusic("moi_day_std");
+
+    test rx_boss_ghost_liker_immortalstage
+    {
+    // NB
     randomizeMusic("moi_ngt_std");
     randomizeMusic("mod_ngt_std");
     randomizeMusic("mod_day_std");
@@ -158,6 +164,11 @@ func void randomizeAllZones() {
     randomizeMusic("rch_day_std");
     randomizeMusic("cos_day_std");
     randomizeMusic("thf_day_std"); 
+    }
+    else
+    {
+    // Hlp_MessageBox("THIS IS NOT NEW BALANCE");
+    };
 };
 
 func event GameInit() {
