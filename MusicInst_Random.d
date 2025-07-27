@@ -57,6 +57,17 @@ func void randomizeAllZones() {
     randomizeMusic("lob_day_std");
     randomizeMusic("may_day_std");
     randomizeMusic("moi_day_std");
+    randomizeMusic("tal_day_std");
+    randomizeMusic("woo_day_std");
+    randomizeMusic("tav_day_std");
+    randomizeMusic("pie_day_std");
+    randomizeMusic("xar_day_std");
+    randomizeMusic("kho_day_std");
+    randomizeMusic("def_day_std");
+    randomizeMusic("def_ngt_std");
+    randomizeMusic("mod_day_std");
+    randomizeMusic("mod_ngt_std");
+    randomizeMusic("nwp_day_std");
 
     // Night of the Raven addon
     randomizeMusic("adw_day_std");
@@ -81,14 +92,8 @@ func void randomizeAllZones() {
     {
     // NB
     randomizeMusic("moi_ngt_std");
-    randomizeMusic("mod_ngt_std");
-    randomizeMusic("mod_day_std");
     randomizeMusic("moo_day_std");
-    randomizeMusic("owp_day_std");
-    randomizeMusic("pie_day_std");
-    randomizeMusic("tal_day_std");
-    randomizeMusic("woo_day_std");
-    randomizeMusic("tav_day_std");
+    randomizeMusic("owp_day_std");    
     randomizeMusic("tpl_day_std");
     randomizeMusic("tpl_ngt_std");
     randomizeMusic("kat_day_std");
@@ -137,14 +142,12 @@ func void randomizeAllZones() {
     randomizeMusic("dsp_day_std");
     randomizeMusic("dsp_ngt_std");
     randomizeMusic("hum_day_std");
-    randomizeMusic("nwp_day_std");
     randomizeMusic("kct_day_std");
     randomizeMusic("oap_day_std");
     randomizeMusic("lws_day_std");
     randomizeMusic("sqt_day_std");
     randomizeMusic("snm_day_std");
     randomizeMusic("rfi_day_std");
-    randomizeMusic("kho_day_std");
     randomizeMusic("dsg_day_std");
     randomizeMusic("nrd_day_std");
     randomizeMusic("nrd_ngt_std");
@@ -158,14 +161,11 @@ func void randomizeAllZones() {
     randomizeMusic("owb_day_std");
     randomizeMusic("men_day_std");
     randomizeMusic("men_ngt_std");
-    randomizeMusic("xar_day_std");
     randomizeMusic("xar_ngt_std");
     randomizeMusic("hrs_day_std");
     randomizeMusic("hrs_ngt_std");
     randomizeMusic("psc_day_std");
     randomizeMusic("psc_ngt_std");
-    randomizeMusic("def_day_std");
-    randomizeMusic("def_ngt_std");
     randomizeMusic("rch_day_std");
     randomizeMusic("cos_day_std");
     randomizeMusic("thf_day_std");
