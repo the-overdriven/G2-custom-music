@@ -84,6 +84,7 @@ instance tal_day_std(c_musictheme_standard) { test tal_day_std_old { file = getM
 // instance nwp_day_std(c_musictheme_standard) { test nwp_day_std_old { file = getMusicTrackFromConfig("nwp_day_std", "Keeper_library.sgt"); }; };
 // instance ow_day_std(c_musictheme_standard) { test ow_day_std_old { file = getMusicTrackFromConfig("ow_day_std", "ow_day_std.sgt"); }; };
 // instance ow_ngt_std(c_musictheme_standard) { test ow_ngt_std_old { file = getMusicTrackFromConfig("ow_ngt_std", "ow_day_std.sgt"); }; };
+// instance tal_day_std(c_musictheme_standard) { test tal_day_std_old { file = getMusicTrackFromConfig("tal_day_std", "DarkSagaThickWood.sgt"); }; };
 
 // NB exclusive
 instance xar_ngt_std(c_musictheme_standard) { test xar_ngt_std_old { file = getMusicTrackFromConfig("xar_ngt_std", "xt_daystd.sgt"); }; };
