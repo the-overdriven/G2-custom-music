@@ -1,16 +1,16 @@
-/* Allows configuring custom music (.mp3 or .sgt) in Gothic.ini. */
-
 META
 { 
 	Parser = Music 
 	MergeMode = TRUE 
 };
 
+// Allows configuring custom music (.mp3 or .sgt) in Gothic.ini.
+
 INSTANCE SYS_Menu(C_MUSICTHEME_DEF)
 {
 	file 		 = Hlp_ReadOptionString("Gothic", "[CUSTOM_MUSIC]", "SYS_Menu", "gamestart.sgt");
 	transType	 = TRANSITION_TYPE_NONE;
-	transSubType = TRANSITION_SUB_TYPE_IMMEDIATE;
+	transSubType = TRANSITION_SUB_TYPE_IMMEDIATE;	
 	ReverbMix	 = -12;
 	ReverbTime	 = 8500;
 };

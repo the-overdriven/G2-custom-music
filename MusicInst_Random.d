@@ -1,10 +1,10 @@
-/* Randomizes tracks within a single music zone. */
-
 META
 {
     Parser = Game
     MergeMode = TRUE
 };
+
+// Randomizes tracks within a single music zone.
 
 /* returns a random number from a range defined in [CUSTOM_MUSIC](zone name)_random + 1 */
 func int getRandomForZone(var string musicZone) {
