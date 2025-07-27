@@ -45,6 +45,7 @@ func void randomizeMusic(var string musicZone) {
 func void randomizeAllZones() {
     randomizeMusic("SYS_Menu");
 
+    // Night of the Raven addon
     randomizeMusic("adw_day_std");
     randomizeMusic("awc_day_std");
     randomizeMusic("adt_day_std");
@@ -62,6 +63,8 @@ func void randomizeAllZones() {
     randomizeMusic("sho_day_std");
     randomizeMusic("swp_day_std");
     randomizeMusic("sto_day_std");
+
+    // vanilla
     randomizeMusic("owd_day_std");
     randomizeMusic("owd_ngt_std");
     randomizeMusic("ins_day_std");
