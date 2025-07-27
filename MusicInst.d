@@ -37,7 +37,6 @@ instance moi_day_std(c_musictheme_standard) { test moi_day_std_old { file = getM
 instance moo_day_std(c_musictheme_standard) { test moo_day_std_old { file = getMusicTrackFromConfig("moo_day_std", "mo_daystd.sgt"); }; };
 instance owp_day_std(c_musictheme_standard) { test owp_day_std_old { file = getMusicTrackFromConfig("owp_day_std", "owp_daystd.sgt"); }; };
 instance pie_day_std(c_musictheme_standard) { test pie_day_std_old { file = getMusicTrackFromConfig("pie_day_std", "pie_daystd.sgt"); }; };
-instance tal_day_std(c_musictheme_standard) { test tal_day_std_old { file = getMusicTrackFromConfig("tal_day_std", "DarkSagaThickWood.sgt"); }; };
 instance woo_day_std(c_musictheme_standard) { test woo_day_std_old { file = getMusicTrackFromConfig("woo_day_std", "woo_daystd.sgt"); }; };
 instance tav_day_std(c_musictheme_standard) { file = getMusicTrackFromConfig("tav_day_std", "NW_TAVERN.MP3"); }; // was unused
 
@@ -71,6 +70,7 @@ instance mod_day_std(c_musictheme_standard) { test mod_day_std_old { file = getM
 instance nwp_day_std(c_musictheme_standard) { test nwp_day_std_old { file = getMusicTrackFromConfig("nwp_day_std", "MI_DayStd.sgt"); }; };
 instance ow_day_std(c_musictheme_standard) { test ow_day_std_old { file = getMusicTrackFromConfig("ow_day_std", "ow_day_std.sgt"); }; };
 instance ow_ngt_std(c_musictheme_standard) { test ow_ngt_std_old { file = getMusicTrackFromConfig("ow_ngt_std", "ow_day_std.sgt"); }; };
+instance tal_day_std(c_musictheme_standard) { test tal_day_std_old { file = getMusicTrackFromConfig("tal_day_std", "woo_daystd.sgt"); }; };
 
 // exist in vanilla and NB (but some changed tracks or renamed zones in NB compared to original game), NB defaults
 // instance kho_day_std(c_musictheme_standard) { test kho_day_std_old { file = getMusicTrackFromConfig("kho_day_std", "kh_daystd.sgt"); }; };
