@@ -164,11 +164,11 @@ func void randomizeAllZones() {
     randomizeMusic("rch_day_std");
     randomizeMusic("cos_day_std");
     randomizeMusic("thf_day_std"); 
-    }
-    else
-    {
-    // Hlp_MessageBox("THIS IS NOT NEW BALANCE");
     };
+    // else
+    // {
+    // Hlp_MessageBox("THIS IS NOT NEW BALANCE");
+    // };
 };
 
 func event GameInit() {
