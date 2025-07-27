@@ -12,7 +12,7 @@ INSTANCE SYS_Menu(C_MUSICTHEME_DEF)
 {
 	file 		 = Hlp_ReadOptionString("Gothic", "[CUSTOM_MUSIC]", "SYS_Menu", "gamestart.sgt");
 	transType	 = TRANSITION_TYPE_NONE;
-	transSubType     = TRANSITION_SUB_TYPE_IMMEDIATE;	
+	transSubType = TRANSITION_SUB_TYPE_IMMEDIATE;	
 	ReverbMix	 = -12;
 	ReverbTime	 = 8500;
 };
@@ -139,3 +139,16 @@ instance def_ngt_std(c_musictheme_standard) { test def_ngt_std_old { file = getM
 instance rch_day_std(c_musictheme_standard) { test rch_day_std_old { file = getMusicTrackFromConfig("rch_day_std", "MEN_DAY_Std.sgt"); }; };
 instance cos_day_std(c_musictheme_standard) { test cos_day_std_old { file = getMusicTrackFromConfig("cos_day_std", "DarkSagaOldLighthouse.sgt"); }; };
 instance thf_day_std(c_musictheme_standard) { test thf_day_std_old { file = getMusicTrackFromConfig("thf_day_std", "PC_Day_Std.sgt"); }; };
+
+/* // this looks like L'Hiver, ignore for now
+instance sal_day_std(c_musictheme_standard) { test sal_day_std_old { file = getMusicTrackFromConfig("sal_day_std", "bad_day_std.sgt"); }; };
+instance tav_day_std(c_musictheme_standard) { test tav_day_std_old { file = getMusicTrackFromConfig("tav_day_std", "bad_day_std.sgt"); }; };
+instance cam_day_std(c_musictheme_standard) { test cam_day_std_old { file = getMusicTrackFromConfig("cam_day_std", "bad_day_std.sgt"); }; };
+instance cam_ngt_std(c_musictheme_standard) { test cam_ngt_std_old { file = getMusicTrackFromConfig("cam_ngt_std", "bad_day_std.sgt"); }; };
+instance lhf_day_std(c_musictheme_standard) { test lhf_day_std_old { file = getMusicTrackFromConfig("lhf_day_std", "bad_day_std.sgt"); }; };
+instance oc_day_std(c_musictheme_standard) { test oc_day_std_old { file = getMusicTrackFromConfig("oc_day_std", "bad_day_std.sgt"); }; };
+instance oc_ngt_std(c_musictheme_standard) { test oc_ngt_std_old { file = getMusicTrackFromConfig("oc_ngt_std", "bad_day_std.sgt"); }; };
+instance nc_day_std(c_musictheme_standard) { test nc_day_std_old { file = getMusicTrackFromConfig("nc_day_std", "bad_day_std.sgt"); }; };
+instance nc_ngt_std(c_musictheme_standard) { test nc_ngt_std_old { file = getMusicTrackFromConfig("nc_ngt_std", "bad_day_std.sgt"); }; };
+instance ork_day_std(c_musictheme_standard) { test ork_day_std_old { file = getMusicTrackFromConfig("ork_day_std", "bad_day_std.sgt"); }; };
+*/
