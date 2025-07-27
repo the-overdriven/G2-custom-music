@@ -30,7 +30,9 @@ Tailored for unmodded game and New Balance mod. Thanks to [zPE](https://gothic-m
 
 ## Don't know which track is played where?
 
-Set in Gothic.ini:
+Original game tracks can be inspected in `_work\Data\Scripts\System\Music\MusicInst.d` (check comments).
+
+Alternatively, set in Gothic.ini:
 ```
 [BASSMUSIC]
 LoggerLevelUnion=TRACE
