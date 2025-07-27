@@ -1,5 +1,7 @@
 # G2-custom-music
-Allows configuring custom music (.mp3 or .sgt) in Gothic.ini. Supports multiple tracks within a single music zone.
+Allows configuring custom music (.mp3 or .sgt) in Gothic.ini. Supports multiple tracks within a single music zone.  
+
+Powered by Union and zParserExtender. Modern audio formats are possible thanks to [zBassMusic](https://github.com/Silver-Ore-Team/zBassMusic/).
 
 ## How to configure
 
