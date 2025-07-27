@@ -88,6 +88,7 @@ func void randomizeAllZones() {
     randomizeMusic("pie_day_std");
     randomizeMusic("tal_day_std");
     randomizeMusic("woo_day_std");
+    randomizeMusic("tav_day_std");
     randomizeMusic("tpl_day_std");
     randomizeMusic("tpl_ngt_std");
     randomizeMusic("kat_day_std");
@@ -167,7 +168,7 @@ func void randomizeAllZones() {
     randomizeMusic("def_ngt_std");
     randomizeMusic("rch_day_std");
     randomizeMusic("cos_day_std");
-    randomizeMusic("thf_day_std"); 
+    randomizeMusic("thf_day_std");
     };
     // else
     // {
