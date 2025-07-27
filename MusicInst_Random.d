@@ -10,7 +10,8 @@ META
 
 /* returns a random number from a range defined in [CUSTOM_MUSIC](zone name)_random + 1 */
 func int getRandomForZone(var string musicZone) {
-    var int randomRange; 
+    var int randomRange;
+
     var string optionName; optionName = Str_format("%s_random", musicZone);
     randomRange = Hlp_ReadOptionInt("Gothic", "[CUSTOM_MUSIC]", optionName, 0);
 
