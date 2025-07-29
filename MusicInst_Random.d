@@ -63,6 +63,7 @@ func void randomizeAllZones() {
     randomizeMusic("pie_day_std");
     randomizeMusic("xar_day_std");
     randomizeMusic("kho_day_std");
+    randomizeMusic("kho_ngt_std");
     randomizeMusic("def_day_std");
     randomizeMusic("def_ngt_std");
     randomizeMusic("mod_day_std");
@@ -86,7 +87,7 @@ func void randomizeAllZones() {
     randomizeMusic("rav_day_std");
     randomizeMusic("sho_day_std");
     randomizeMusic("swp_day_std");
-    randomizeMusic("sto_day_std");    
+    randomizeMusic("sto_day_std");
 
     test rx_boss_ghost_liker_immortalstage
     {
